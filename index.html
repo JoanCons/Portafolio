@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Joan Consuegra</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!-- seccion home -->
+    <div class="wrapper">
+        <header>
+            <nav class="navbar" id="navbar">
+                <div class="brand">
+                    <h2><span><</span> JC <span>/></span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a href="#Home" class="active">Home</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <a name="Home" />
+        <div class="imgContainerFondo1">
+            <img src="CSS/imgs/Wanderer Above the Sea of Fog 4K wallpaper (1).JPG" class=" imgF1 ">
+            <div class="containerNombre">
+                <div class="nombre">
+                    <h2>Joan Consuegra Lazo</h1>
+                        <h4>Traductor EN-ES-PT / Programador</h4>
+                </div>
+            </div>
+        </div>
+
+        <main class="main">
+            <div class="info-content ">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eveniet, ex fugiat similique amet voluptas esse suscipit quo maxime tempore fuga ipsam beatae, impedit non libero, adipisci quos minus neque!</p>
+                <a href="cv/CV Joan Consuegra 2022 .pdf" target="_blank">
+                    <button class="downloadCV"><b>Descargar CV</b></button>
+                </a>
+            </div>
+        </main>
+    </div>
+    <!-- end wrapper -->
+    <!-- end home -->
+
+
+
+    <!-- seccion portafolio -->
+    <a name="portafolio" />
+    <div class="portafolio ">
+        <div class="portafolio-header">
+            <h2>Mi portafolio</h2>
+            <div class="divider"></div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="card-img" style="background-image: url('CSS/imgs/prba3.jpeg'); width: 70%; margin-left: 15%;"></div>
+
+                <div class="card-title">
+                    <h3>CRUD usuariarios y administrador de productos</h3>
+                </div>
+                <div class="card-technologies">
+                    <ul>
+                        <li>Desarrollado para Android</li>
+                        <li>Java</li>
+                        <li>SQLite</li>
+                        <li>Con persistencia de datos</li>
+                    </ul>
+                </div>
+                <div class="card-project-link">
+                    <a href="https://github.com/JoanCons/CRUD_Productos_-Android" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                    <a href="https://github.com/JoanCons/CRUD_Productos_-Android" target="_blank" rel="noopener noreferrer">
+                        <i class=""></i>
+                    </a>
+                </div>
+                <!--   <div class="ver-mas">
+                    <button class="detalles-proyecto" id="btnHiddenText">Detalles del proyecto</button>
+                    <span class="hide" id="hiddenText">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quasi nisi vero amet maiores non deleniti dignissimos volupta</p>
+                </span>
+                </div>
+            -->
+            </div>
+
+            <div class="card">
+                <div class="card-img" style="background-image: url('CSS/imgs/pagSubasta.PNG') ;"></div>
+
+                <div class="card-title">
+                    <h3>Proyecto de página de subastas online, con CRUDs para usuarios y subastas</h3>
+                </div>
+                <div class="card-technologies">
+                    <ul>
+                        <li>Desarrollado como página web</li>
+                        <li>C#</li>
+                        <li>HTML</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="card-project-link">
+                    <a href="https://github.com/JoanCons/proySubastas01" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                    <a href="https://joancons.github.io/proySubastas01/">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+                </div>
+                <!--   <div class="ver-mas">
+                    <button class="detalles-proyecto" id="btnHiddenText">Detalles del proyecto</button>
+                    <span class="hide" id="hiddenText">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quasi nisi vero amet maiores non deleniti dignissimos volupta</p>
+                </span>
+                </div>
+            -->
+            </div>
+
+        </div>
+    </div>
+    <!-- end seccion portafolio -->
+
+
+    <!-- seccion CONTACTO -->
+    <a name="contacto" />
+    <div class="wrapper">
+        <div class="contact-section ">
+            <div class="contact-header ">
+                <h2>Contacto</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="contact-form ">
+                <h4>Puedes enviarme un mensaje, lo contestaré a la brevedad :D</h4>
+
+                <form class="form" action="https://formsubmit.co/joan.consuegra@usach.cl" method="POST">
+
+
+                    <!--  <form class="form" action="enviarCorreo.php" method="POST"> -->
+
+                    <input type="text " placeholder="Nombre" name="nombre" required>
+                    <input type="email " placeholder="Correo" name="email" required>
+                    <textarea placeholder="Escribe tu mensaje" name="mensaje" required></textarea>
+                    <button type="submit" class="btn-submit "><b>Enviar mensaje</b></button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://joancons.github.io/Portafolio/">
+                </form>
+            </div>
+        </div>
+        <!-- end seccion CONTACTO -->
+
+
+
+        <!-- seccion FOOTER -->
+        <div class="footer">
+            <div class="footer-header">
+                <h3>Joan Consuegra Lazo</h3>
+                <p>Muchas gracias por tu tiempo</p>
+            </div>
+            <div class="social-network">
+                <a href="https://www.linkedin.com/in/joan-consuegra-lazo-a57677149/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin "></i>
+                </a>
+                <a href="https://github.com/JoanCons" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github "></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end seccion FOOTER -->
+
+
+
+
+    <div class="btnArriba">
+        <img src="CSS/imgs/up.png" alt="" id="botonArriba">
+    </div>
+
+    <!-- 
+    <div class="btnArriba">
+        <a href="#navbar">
+            <img src="CSS/imgs/up.png" alt="" id="botonArriba">
+
+        </a>
+    </div>
+-->
+    <script src="script.js"></script>
+</body>
+
+</html>
